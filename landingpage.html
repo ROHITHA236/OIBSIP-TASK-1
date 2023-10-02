@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Oasis Infobyte Task</title>
+        <style type="text/css">
+            *{padding: 0; margin: 0; box-sizing: border-box;}
+            header{
+                width: 100%;
+                height: 100vh;
+                background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url("Untitled\ design.jpg");
+                background-size: cover;
+                font-family: sans-serif;
+            }
+            nav{
+                width: 100%;
+                height: 100px;
+                color: white;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .logo{
+                font-size: 2em;
+                letter-spacing: 2px;
+            }
+            .menu a{
+                text-decoration: none;
+                color: white;
+                padding: 10px 20px;
+                font-size: 20px;
+                position: relative;
+            }
+            .menu a:before{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 0%;
+                height: 100%;
+                border-bottom: 2px solid indianred;
+                transition: 0.4s linear;
+            }
+            .menu a:hover:before{
+                width: 90%;
+            }
+            .login a{
+                text-decoration: none;
+                color: white;
+                padding: 10px 20px;
+                font-size: 20px;
+                background: indianred;
+                border-radius: 8px;
+                transition: 0.4s;
+            }
+            .login a:hover{
+                background: transparent;
+                border:1px solid indianred;
+            }
+            .h-txt{
+                max-width: 300px;
+                position: absolute;
+                top: 45%;
+                left: 20%;
+                transform: translate(-50%,-50%);
+                text-align: center;
+                color: white;
+            }
+            .h-txt h1{
+                font-size: 3.5em;
+            }
+            .h-txt a{
+                text-decoration: none;
+                background: indianred;
+                color: white;
+                padding: 10px 20px;
+                letter-spacing: 1px;
+                border-radius: 8px;
+                transition: 0.4s;
+            }
+            .h-txt a:hover{
+                background: transparent;
+                border: 1px solid indianred;
+            }
+            .h-txt font{
+                font-size: 45px;
+            }
+            .h-txt h3{
+                max-width: 650px;
+                position: absolute;
+                top: 140%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                text-align: center;
+                color: black;
+            }
+            .h-txt h3{
+                text-decoration: none;
+                background: white;
+                color: black;
+                padding: 10px 20px;
+                border-radius: 8px;
+                letter-spacing: 1px;
+                transition: 0.4s;
+            }
+            .h-txt h3:hover{
+                background: transparent;
+                border: 1px solid indianred;
+            }
+            .h-txt h4{
+                max-width: 650px;
+                position: absolute;
+                top: 320%;
+                left: 205%;
+                transform: translate(-50%,-50%);
+                text-align: center;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <a href="#">Classes</a>
+                    <a href="#">Our Instructor</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="login">
+                    <a href="#">Login</a>
+                </div>
+                <div class="logo">
+                    Anu Driving
+                </div>
+            </nav>
+            <section class="h-txt">
+                <font color="aqua">Drive Now</font>
+                <h2>Learn Fast & Easy</h2>
+                <br>
+                <a href="#">Course will start on Sep 19th</a>
+                <br>
+                <h3 href="#">Join Us</h3>
+                <br>
+                <h4 href="#">www.anudriving.com</h4>
+            </section>
+        </header>
+    </body>
+</html>
